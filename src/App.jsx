@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-     <h1>ritu</h1>
+     <h1>ritu pancholi</h1>
     </>
   )
 }
