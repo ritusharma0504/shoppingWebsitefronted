@@ -1,12 +1,10 @@
-import { useState } from 'react'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
 
-function Navbar() {
-
-  return (
-    <>
-     <h1>Navbar</h1>
-    </>
-  )
-}
-
-export default Navbar
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
